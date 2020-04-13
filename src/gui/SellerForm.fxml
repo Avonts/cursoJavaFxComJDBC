@@ -41,6 +41,7 @@
             <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <DatePicker fx:id="dpBirthDate" prefHeight="25.0" prefWidth="151.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <ComboBox fx:id="comboBoxDepartment" prefHeight="25.0" prefWidth="234.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <HBox prefHeight="83.0" prefWidth="181.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <children>
                   <Button fx:id="btSave" mnemonicParsing="false" onAction="#onBtSaveAction" text="Save" />
@@ -67,7 +68,6 @@
                   <Font size="13.0" />
                </font>
             </Label>
-            <ComboBox fx:id="comboBoxDepartment" prefHeight="25.0" prefWidth="234.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
    </children>
